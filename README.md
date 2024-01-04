@@ -1,6 +1,30 @@
 # Repositório do Desafio Reqres - Getnet
 
+Este repositório mantém o código utlizado na automação do desafio.
+___
 
+API: https://reqres.in/api/
+
+## Pré-requisito
+* Git
+* NodeJS
+## Clonando o projeto
+~~~shell
+$ git clone git@github.com:natanlbispo/reqres-desafio.git
+~~~
+## Rodar o projeto
+
+~~~javascript
+$ npm install
+~~~
+
+E depois: 
+
+~~~javascript
+$ npm run cypress:run
+~~~
+
+---
 Responda as questões a seguir:
 
 ```
