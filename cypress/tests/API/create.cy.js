@@ -6,8 +6,7 @@ describe('CREATE API', () => {
         const job = faker.name.jobTitle();
         cy.createUser(name, job);
     })
-
-    it.only('Create Contract', () => {
+    it('Create Contract Test', () => {
         const name = faker.name.firstName();
         const job = faker.name.jobTitle();
         cy.createUser(name, job).then(response => {

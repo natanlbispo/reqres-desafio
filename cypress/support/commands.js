@@ -24,15 +24,15 @@
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
 
-Cypress.Commands.add('createUser', (name, job)=>{
+Cypress.Commands.add('createUser', (name, job) => {
     const user = {
         "name": name,
         "job": job
     }
-    cy.request('POST','/users',user).then((response)=>{
+    cy.request('POST', '/users', user).then((response) => {
         expect(response.status).equal(201)
         expect(response.body.name).equal(user.name)
         expect(response.body.job).equal(user.job)
-       
+
     })
 });
