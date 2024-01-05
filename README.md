@@ -72,8 +72,11 @@ Começando pela heurística mais utilizada CRUD, onde ao testar principais parte
 ```
 
 Mobile: Appium + WD.js , Appium+WebdriverIO, RobotFramework;
+
 API: Cypress, Rest-Assured, K6, Postman;
+
 WEB: Cypress, Selenium, Playwright;
+
 Desktop: RobotFramework;
 
 ---
