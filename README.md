@@ -30,6 +30,8 @@ Executando modo Headless:
 $ npm run cypress:run
 ~~~
 
+  ![cypress-headless](./readme-support/img.png)
+
 ---
 Responda as questões a seguir:
 
