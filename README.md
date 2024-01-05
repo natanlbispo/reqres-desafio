@@ -21,7 +21,7 @@ $ npm install
 Executando modo Open: 
 
 ~~~javascript
-$ npm run test:open
+$ npm run cypress:open
 ~~~
     
 Executando modo Headless:
