@@ -18,7 +18,13 @@ $ git clone git@github.com:natanlbispo/reqres-desafio.git
 $ npm install
 ~~~
 
-E depois: 
+Executando modo Open: 
+
+~~~javascript
+$ npm run test:open
+~~~
+    
+Executando modo Headless:
 
 ~~~javascript
 $ npm run cypress:run
